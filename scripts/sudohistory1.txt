@@ -1,0 +1,806 @@
+    1  ls
+    2  du -sf *
+    3  du -sh *
+    4  cd ~
+    5  s
+    6  ls
+    7  df
+    8  yum update
+    9  yum update
+   10  ls
+   11  sudo su
+   12  ls
+   13  yum install google-chrome
+   14  firefox
+   15  cd Downloads/
+   16  ls
+   17  cd ../Music/
+   18  ls
+   19  ll
+   20  sudo yum install g
+   21  sudo yum install google-chrome-stable_current_x86_64.rpm 
+   22  which google-chrome
+   23  google-chrome
+   24  w
+   25  w
+   26  w
+   27  w
+   28  w
+   29  w
+   30  w
+   31  w
+   32  w
+   33  w
+   34  w
+   35  w
+   36  w
+   37  w
+   38  w
+   39  w
+   40  top
+   41  w
+   42  w
+   43  w
+   44  w
+   45  w
+   46  w
+   47  w
+   48  w
+   49  w
+   50  w
+   51  w
+   52  w
+   53  w
+   54  w
+   55  w
+   56  w
+   57  w
+   58  w
+   59  w
+   60  ww
+   61  ww
+   62  w
+   63  ww
+   64  w
+   65  w
+   66  w
+   67  w
+   68  w
+   69  ww
+   70  w
+   71  cd --
+   72  ls
+   73  cd Dow
+   74  ls
+   75  w
+   76  service proxysql start
+   77  service proxysql status
+   78  service proxysql status|grep "Active"
+   79  w
+   80  w
+   81  w
+   82  w
+   83  w
+   84  top
+   85  ls /proc
+   86  less /proc/meminfo
+   87  less /proc/meminfo
+   88  free && sync && echo 3 > /proc/sys/vm/drop_caches && free
+   89  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+   90  less /proc/stat
+   91  ls /proc/
+   92  w
+   93  w
+   94  w
+   95  w
+   96  w
+   97  w
+   98  man w
+   99  du -sh 
+  100  df 
+  101  top
+  102  w
+  103  ps ef|grep pts/4
+  104  kill -9 9355
+  105  ps ef|grep saravanan
+  106  ps ef|grep "saravanan"
+  107  ps ef|grep "gateway"
+  108  kill 9384
+  109  kill 9384
+  110  kill 9384
+  111  kill 9384
+  112  kill 9384
+  113  w
+  114  w
+  115  w
+  116  w
+  117  ps
+  118  service proxysql stop
+  119  service proxysql status
+  120  exit
+  121  history
+  122  ls
+  123  ls Pic
+  124  ls Pictures/
+  125  ls -ltrh Pictures/
+  126  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  127  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  128  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  129  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  130  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  131  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  132  free -h
+  133  exit
+  134  ls
+  135  service proxysql status
+  136  kill 5586
+  137  service proxysql status
+  138  top
+  139  service proxysql stop
+  140  service proxysql status
+  141  service proxysql start
+  142  ps -ef | grep "proxy"
+  143  ps -ef | grep "proxysql"
+  144  kill -9 17041
+  145  ps -ef | grep "proxysql"
+  146  service proxysql start
+  147  ps -ef | grep "proxysql"
+  148  kill -9 17113
+  149  kill -9 17113
+  150  ps -ef | grep "proxysql"
+  151  ls
+  152  cd saravanan/
+  153  ls
+  154  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  155  top
+  156  free -h
+  157  ps -ef | grep "proxysql"
+  158  ps -ef | grep "sql"
+  159  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  160  free -h
+  161  free -h
+  162  free -h
+  163  free -h
+  164  free -h
+  165  free -h
+  166  w
+  167  w
+  168  w
+  169  w
+  170  w
+  171  w
+  172  w
+  173  w
+  174  w
+  175  w
+  176  w
+  177  w
+  178  w
+  179  ww
+  180  w
+  181  w
+  182  w
+  183  w
+  184  w
+  185  w
+  186  w
+  187  w
+  188  w
+  189  iostat
+  190  df
+  191  df
+  192  df -h
+  193  python --version
+  194  python3 --version
+  195  py3
+  196  python3 --version
+  197  python --version
+  198  python
+  199  node
+  200  sudo su
+  201  l
+  202  ls
+  203  sudo su
+  204  useradd sara
+  205  ls /home/
+  206  ls /usr/share/
+  207  deluser sara
+  208  userdel sara
+  209  ls /home/
+  210  cd /
+  211  cd home/
+  212  ls
+  213  rm -rf sara
+  214  ls
+  215  ll
+  216  vi proxysql.cnf
+  217  cd /
+  218  yum search pulseaudio
+  219  yum search pulseaudio-equalizer
+  220  yum install pulseaudio
+  221  pulseaudio
+  222  ls var/lib/proxysql/
+  223  ls var/lib/proxysql/
+  224  less var/lib/proxysql/proxysql.log 
+  225  exit
+  226  service proxysql status
+  227  ls
+  228  cd /
+  229  ls
+  230  mysql -u admin -padmin -h 127.0.0.1 -P 6032
+  231  proxysql-admin --config-file=/etc/proxysql-admin.cnf --enable
+  232  ls var/lib/
+  233  ls var/lib/proxysql/
+  234  sl /etc/init.d/
+  235  ls /etc/init.d/
+  236  cd etc/init.d/
+  237  ls
+  238  proxysql
+  239  ls
+  240  cd /var/lib/proxysql/
+  241  ls
+  242  less proxysql
+  243  less proxysql.log 
+  244  ls
+  245  cd ..
+  246  cd ..
+  247  cd /etc/
+  248  ls
+  249  ls |grep pro
+  250  less proxysql.cnf 
+  251  vi proxysql.cnf 
+  252  cd /
+  253  cd /etc/init.d/
+  254  proxysql start
+  255  mysql -u admin -padmin -h saravanan.linux -P 6032
+  256  hostname
+  257  /home/saravanan/saravanan/mysql/mysql_base/bin/mysql -u admin -padmin -h saravanan.linux -P 6032
+  258  /home/saravanan/saravanan/mysql/mysql_base/bin/mysql -u admin -padmin -h 127.0.0.1 -P 6032
+  259  /home/saravanan/saravanan/mysql/mysql_base/bin/mysql -u admin -padmin -h 127.0.0.1 -P 6032 --prompt='proxysql> '
+  260  /home/saravanan/saravanan/mysql/mysql_base/bin/mysql -u admin -padmin -h 127.0.0.1 -P 6032 --prompt='proxysql-Admin> '
+  261  exit
+  262  ls
+  263  pwd
+  264  exit
+  265  top
+  266  w
+  267  ps -ef | grep "sql"
+  268  upower
+  269  acpi
+  270  acpi -i
+  271  ezit
+  272  exit
+  273  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  274  free -h
+  275  yum install coed
+  276  yum install code
+  277  rpm --import https://packages.microsoft.com/keys/microsoft.asc
+  278  cat << EOF > /etc/yum.repos.d/vscode.repo
+  279  [code]
+  280  name=Visual Studio Code
+  281  baseurl=https://packages.microsoft.com/yumrepos/vscode
+  282  enabled=1
+  283  gpgcheck=1
+  284  gpgkey=https://packages.microsoft.com/keys/microsoft.asc
+  285  EOF
+  286  yum check-update
+  287  yum install -y code
+  288  yum install -y code
+  289  code --version
+  290  code -V
+  291  code
+  292  pwd
+  293  mkdir vscodes
+  294  ls
+  295  pwd
+  296  code --user-data-dir=/home/saravanan/vscodes
+  297  npm install -g @ionic/cli native-run cordova-res
+  298  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  299  free -h
+  300  free -h
+  301  free -h
+  302  free -h
+  303  free -h
+  304  free -h
+  305  free -h
+  306  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  307  free -h
+  308  exit
+  309  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  310  top
+  311  kill 3787
+  312  top
+  313  kill 582
+  314  top
+  315  ps -ef|grep chrome
+  316  top
+  317  top
+  318  kill 4639
+  319  top
+  320  free
+  321  shutdown -h
+  322  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  323  free -h
+  324  top
+  325  java -version
+  326  javac
+  327  java
+  328  ls
+  329  ll
+  330  ls android-studio
+  331  less android-studio/Install-Linux-tar.txt 
+  332  ls
+  333  ls ../
+  334  cd ..
+  335  ls
+  336  mv sources/android-studio ./
+  337  l
+  338  ls
+  339  pwd
+  340  cd android-studio/
+  341  ls
+  342  ./bin/studio.sh 
+  343  ls
+  344  exit
+  345  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  346  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  347  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  348  free -h
+  349  free -h
+  350  exit
+  351  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  352  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  353  free -h
+  354  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  355  free -h
+  356  exit
+  357  npm
+  358  npm i -g npm
+  359  node
+  360  node --version
+  361  yum update node
+  362  ls
+  363  cd ~
+  364  node
+  365  ls
+  366  npm
+  367  yum install -y npm
+  368  ls /usr/local/bin/
+  369  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  370  free -h
+  371  free -h
+  372  free -h
+  373  free -h
+  374  free -h
+  375  top
+  376  free -h
+  377  free -h
+  378  exit
+  379  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  380  exit
+  381  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  382  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  383  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  384  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  385  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  386  free -h
+  387  exit
+  388  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  389  free -h
+  390  exit
+  391  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  392  top
+  393  free -h
+  394  free -h
+  395  free -h
+  396  free -h
+  397  free -h
+  398  top
+  399  top
+  400  free -h
+  401  free -h
+  402  free -h
+  403  free -h
+  404  free -h
+  405  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  406  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  407  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  408  exit\
+  409  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  410  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  411  exit
+  412  w
+  413  w
+  414  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  415  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  416  service proxysql status
+  417  service proxysql stop
+  418  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  419  groupadd mysql
+  420  useradd -g mysql mysql
+  421  ls /home/
+  422  chown -R mysql:mysql ./*
+  423  ll
+  424  vi my.cnf 
+  425  chown -R mysql:mysql ../data*
+  426  ls -l ../
+  427  chown -R mysql:mysql ../*
+  428  ls ../
+  429  ls -l ../
+  430  rm -rf ../data1/*
+  431   ./bin/mysql -u saravanan -S /tmp/mysql33.sock
+  432  ./bin/mysql -uroot -S /tmp/mysql33.sock
+  433  ./bin/mysql -uroot -S /tmp/mysql33.sock
+  434  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  435  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  436  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  437  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  438  ls
+  439  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  440  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  441  top
+  442  iostat
+  443  vmstat
+  444  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  445  top
+  446  top
+  447  kill -9 5198
+  448  kill -9 5162 7330
+  449  top
+  450  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  451  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  452  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  453  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  454  ps -ef|grep chrome
+  455  kill -9 5162 7330
+  456  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  457  exit
+  458  top
+  459  ps -ef|grep chrome
+  460  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  461  exit
+  462  yum search docker
+  463  yum install docker
+  464  docker --version
+  465  docker
+  466  ps -ef|grep "docker"
+  467  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  468  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  469  docker info
+  470  docker version
+  471  docker images
+  472  docker rmi docker.io/centos
+  473  docker rmi 470671670cac
+  474  docker images
+  475  docker run centos cat /etc/issue
+  476  docker ps -l
+  477  docker ps -l
+  478  docker start 43aa3c97c61f
+  479  docker ps -l
+  480  docker stop eloquent_lichterman
+  481  docker ps -l
+  482  docker stop 43aa3c97c61f
+  483  docker ps -l
+  484  docker ps 
+  485  docker start 43aa3c97c61f
+  486  docker ps 
+  487  dls
+  488  ls
+  489  docker run -it --name docker_linux centos /bin/bash
+  490  docker ps -l
+  491  docker start docker_linux
+  492  docker stats docker_linux
+  493  docker top docker_linux
+  494  docker run -it --name docker_linux centos /bin/bash
+  495  docker run -it docker_linux /bin/bash
+  496  docker start docker_linux
+  497  docker run -it centos bash/
+  498  docker run -it centos /bash/
+  499  docker run -it centos bash 
+  500  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  501  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  502  exit
+  503  ls mysql/
+  504  ;s
+  505  cd mysql
+  506  ls
+  507  cd ..
+  508  cd vicky 
+  509  ls
+  510  cd ../saravanan/
+  511  ;s
+  512  ;ls
+  513  ls
+  514  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  515  sync
+  516  echo 3
+  517  ls
+  518  ls /var/www/html/
+  519  l
+  520  ls
+  521  history |grep "apache"
+  522  history |grep "system"
+  523  docker run -it centos /bin/bash
+  524  docker images
+  525  docker run -it 470671670cac /bin/bash
+  526  kill -9 3616
+  527  yum update
+  528  vi /etc/yum/pluginconf.d/subscription-manager.conf
+  529  ls
+  530  yum update
+  531  kill 10318
+  532  yum update
+  533  cd ~
+  534  ls
+  535  yum update
+  536  kill -9 10159
+  537  yum update
+  538  kill  
+  539  yum update
+  540  ls
+  541  pwd
+  542  cd /
+  543  ls
+  544  cd root
+  545  ls
+  546  cd ..
+  547  ls
+  548  ll
+  549  cd home/
+  550  ll
+  551  cd saravanan/
+  552  ls
+  553  cd ..
+  554  cd \ls
+  555  s
+  556  ls
+  557  cd vicky/
+  558  s
+  559  s
+  560  ;;
+  561  ls
+  562  cd vicky/
+  563  ls
+  564  ps -ef|grep "docker"
+  565  systemctl stop docker
+  566  sudo su
+  567  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  568  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  569  top
+  570  top
+  571  top
+  572  logname
+  573  systemctl docker stop
+  574  docker
+  575  docker version
+  576  systemctl docker stop
+  577  systemctl stop docker
+  578  ps -ef|grep "docker"
+  579  systemctl stop docket
+  580  systemctl stop docker
+  581  ps -ef|grep "docker"
+  582  pwd
+  583  at 11:26
+  584  jobs
+  585  vi /etc/at.allow
+  586  less /etc/at.allow
+  587  at -m 11:30
+  588  echo "ps -ef |grep "docker" | at -m 11:31
+  589  echo "ps -ef |grep "docker"" | at -m 11:31
+  590  echo "ps -ef |grep "docker"" | at -m 11:32
+  591  echo "ps -ef |grep "docker" >> filex.txt" | at -m 11:33
+  592  ls
+  593  ls
+  594  less filex.txt 
+  595  ls
+  596  now
+  597  at.allow(2)
+  598  at.allow(5)
+  599  at.allow()
+  600  echo "ps -ef |grep "docker"" | at -cm 11:32
+  601  echo "ps -ef |grep "docker"" | at -m -c 11:37
+  602  free -h && sync && echo 3 > /proc/sys/vm/drop_caches && free -h
+  603  ls
+  604  ls -R
+  605  ls
+  606  yum search php
+  607  yum update php
+  608  yum update
+  609  php --version
+  610  yum install php70u p70u-pdo php70u-mysqlnd php70u-opcache php70u-xml php70u-gd php70u-devel php70u-mysql 
+  611   yum install https://centos7.iuscommunity.org/ius-release.rpm
+  612  yum install https://centos7.iuscommunity.org/ius-release.rpm
+  613  ping https://centos7.iuscommunity.org/ius-release.rpm
+  614  ping https://centos7.iuscommunity.org/
+  615  vi /etc/sysconfig/selinux
+  616  curl -sS https://getcomposer.org/installer | php
+  617  mv composer.phar /usr/local/bin/composer
+  618  chmod +x /usr/local/bin/composer
+  619  cd /var/www/html/
+  620  cd codeignitor/
+  621  cd ..
+  622  composer install
+  623  chmod +x /usr/local/bin/composer
+  624  mv composer.phar /usr/local/bin/composer
+  625  composer install
+  626  cd codeignitor/
+  627  composer install
+  628  yum search mariadb
+  629  yum search mysql-server
+  630  kill 3885
+  631  kill 3884
+  632  yum search mysql-server
+  633  yum search mysql
+  634  yum install mariadb.x86_64
+  635  ps ef|grep saravanan
+  636  ps ef|grep mysql
+  637  ps -ef|grep "mysql"
+  638  ps -ef|grep "mariadb"
+  639  mysql
+  640  man mysql
+  641  systemctl mysql start
+  642  systemctl start mysql
+  643  systemctl status mysql
+  644  systemctl status mysql.srevice
+  645  systemctl status mysql.service
+  646  yum install mariadb-server
+  647  systemctl start mariadb
+  648  systemctl status mariadb
+  649  systemctl enable mariadb
+  650  systemctl status mariadb
+  651  systemctl start mariadb.service
+  652  journalctl -xe
+  653  ps -ef|grep "mariadb"
+  654  ps -ef|grep "sql"
+  655  kill 2274 2344
+  656  ps -ef|grep "sql"
+  657  systemctl status mariadb
+  658  systemctl status mysql
+  659  mysql -u root 
+  660  ls  /var/lib/mysql/mysql.sock
+  661  ls  /var/lib/mysql/
+  662  rm -rf /var/lib/mysql/mysql.sock 
+  663  systemctl status mariadb
+  664  systemctl stop mariadb
+  665  systemctl reload mariadb
+  666  systemctl status mariadb
+  667  kill 6093
+  668  systemctl status mariadb
+  669  top
+  670  composer install
+  671  ps -ef|grep "sql"
+  672  yum info mariadb-server
+  673  yum remove mariadb-server
+  674  yum clean all
+  675  yum search mariadb-server
+  676  yum install mariadb-server
+  677  yum install MariaDB-server MariaDB-client
+  678  mysql
+  679  yum remove mysql
+  680  exit
+  681   curl -4 http://mirrorlist.centos.org >> /root/mirrorlist
+  682  host
+  683  host mirrorlist.centos.org
+  684  yum search mariadb-server
+  685  exit
+  686  yum install MariaDB-server MariaDB-client
+  687  yum install MariaDB-server MariaDB-client
+  688  kill 7907
+  689  yum install MariaDB-server MariaDB-client
+  690  systemctl enable mariadb
+  691  systemctl start mariadb
+  692  ps -ef|grep "sql"
+  693  top
+  694  mysql -u root 
+  695  mysql -u root -p
+  696  mysql -u root 
+  697  mysql -u root -p
+  698  mysql -u root 
+  699  systemctl status mariadb
+  700  mysql -u root 
+  701  mysqladmin -u root shutdown
+  702  ps -ef|grep "sql"
+  703  kill 2225 2226
+  704  mysql -u saravanan
+  705  mysql -u saravanan -p
+  706  mysql -u root
+  707  mysql -u root-p
+  708  mysql -u root
+  709  mysql -u root -p
+  710  mysql -u saravanan -p
+  711  mysql -u saravanan -p
+  712  mysql -u saravanan -p
+  713  docker images
+  714  docker run -it -v="/home/saravanan/docker_Space/centos" docker.io/centos /bin/bash  
+  715  docker pull mcr.microsoft.com/windows/servercore
+  716  docker volume create docker_space 
+  717  ls
+  718  docker volume list
+  719  docker run -it -v docker_space:/data docker.io/centos /bin/bash  
+  720  docker run -it -v docker_space:/data docker.io/centos /bin/bash  
+  721  docker run -it -v docker_space:/data abfd551daffa /bin/bash  
+  722  docker start abfd551daffa
+  723  docker attach abfd551daffa
+  724  docker run -it -v docker_space:/data abfd551daffa /bin/bash  
+  725  docker attach abfd551daffa
+  726  docker start abfd551daffa
+  727  docker attach abfd551daffa
+  728  systemctl status mariadb
+  729  systemctl stop mariadb
+  730  systemctl stop docker
+  731  cd /
+  732  ls etc/in
+  733  vi etc/init.d/
+  734  cd etc/init.d/
+  735  ls
+  736  less functions 
+  737  less README 
+  738  /etc/init.d/mysqld stop
+  739  ps -ef|grep "sql"
+  740  ps -ef|grep "mysql"
+  741  ps -ef|grep "htt"
+  742  kernel=$(uname -r | cut -d. -f1-2)
+  743  echo kernel
+  744  echo $kernel
+  745  uname -r
+  746  uname -r | cut -d.
+  747  uname -r | cut -d. -f0-3
+  748  uname -r
+  749  chkconfig --list
+  750  systemctl list-unit-files --type=service |grep "mysql"
+  751  cd ~
+  752  ls
+  753  systemctl disable docker
+  754  systemctl list-unit-files --type=service |grep "docker"
+  755  systemctl enable docker
+  756  systemctl list-unit-files --type=service |grep "docker"
+  757  systemctl disable httpd
+  758  ps -ef|grep "htt"
+  759  ps -ef|grep "docker"
+  760  systemctl disable httpd
+  761  ps -ef|grep "apach
+  762  systemctl disable apache
+  763  history
+  764  cd volumes/
+  765  ls
+  766  cd docker_space/
+  767  ls
+  768  ls
+  769  cd _data/
+  770  ls
+  771  ifconfig
+  772  ssh root@172.17.0.2
+  773  /etc/init.d/mysqld stop
+  774  /etc/init.d/httpd stop
+  775  runlevel
+  776  cd /
+  777  ls etc/
+  778  cd etc/
+  779  ls
+  780  ls
+  781   ls -a
+  782  ls -a
+  783  ls -a |grep "rc"
+  784  less rc2.d/
+  785  less rc5.d/
+  786  cd rc5.d
+  787  ls
+  788  less S10network 
+  789  cd ..
+  790  cd rc3.d/
+  791  ls
+  792  less K
+  793  cd ..
+  794  less rc3.d
+  795  less rc3.d/K50netconsole 
+  796  history
+  797  systemctl list-unit-files --type=service |grep "docker"
+  798  systemctl list-unit-files --type=service |grep "mysql"
+  799  ls
+  800  s
+  801  ls
+  802  vi func.sh
+  803  sh func.sh 
+  804  vi func.sh
+  805  sh func.sh 
+  806  history >> sudohistory1.txt
