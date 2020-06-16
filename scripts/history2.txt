@@ -1,0 +1,1000 @@
+   15  sudo yum list installled |grep "anydesk"
+   16  top
+   17  sudo yum remove anydesk
+   18  kill 3667
+   19  sudo kill 3667
+   20  sudo yum list installled |grep "anydesk"
+   21  sudo yum installed 
+   22  sudo yum list installed |grep "anydesk"
+   23  sudo yum remove anydesk.x86_64
+   24  ls
+   25  cd saravanan/
+   26  ls
+   27  cd mysql/
+   28  ls
+   29  cd mariadb/
+   30  ls
+   31  vi sample.config
+   32  ls
+   33  vi sample.cnf
+   34  ls
+   35  ./scripts/mysql_install_db --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata --user=saravanan
+   36  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata --user=saravanan &
+   37  ./bin/mysql -u saravanan -S /tmp/mysql60.sock
+   38  less sample.cnf 
+   39  less ../mariadata/error.log 
+   40  ./bin/mysql -u saravanan -S /tmp/mysql60.sock
+   41  less ../mariadata/error.log 
+   42  ./bin/mysql -u saravanan -S /tmp/mysql60.sock
+   43  ls
+   44  vi sample.cnf 
+   45  ./bin/mysqladmin -u saravanan -S /tmp/mysql60.sock shutdown
+   46  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata --user=saravanan &
+   47  ./bin/mysql -u saravanan -S /tmp/mysql60.sock
+   48  ls ../mariad
+   49  ls ../mariadata/
+   50  ls bin |grep mysqlbinlog
+   51  ./bin/mysql -u saravanan -S /tmp/mysql60.sock
+   52  killall -KILL mysqld_safe mysqld mysql
+   53  ps -ef |grep "anydesk"
+   54  ps -ef |grep "mysql"
+   55  pwd
+   56  ls ../
+   57  mkdir ../mariadata
+   58  ls ../
+   59  ../pwd
+   60  pwd ../
+   61  ls
+   62  cd ../mariadata/
+   63  ls
+   64  ../mariadb/bin/mysqlbinlog aria_log.00000001 
+   65  ../mariadb/bin/mysqlbinlog sara-bin-log.000001 
+   66  cd ../mariadata/
+   67  KLS
+   68  KS
+   69  LS
+   70  ls
+   71  cd ../mariadb/
+   72  l.s
+   73  ls
+   74  mkdir ../mariadata/data1
+   75  ls
+   76  cp sample.cnf sample2.cnf
+   77  vi sample2.cnf 
+   78  ./scripts/mysql_install_db --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample2.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata/data1 --user=saravanan
+   79  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample2.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata/data1 --user=saravanan &
+   80  ./bin/mysql -u saravanan -S /tmp/mysql61.sock
+   81  cd ..
+   82  ls
+   83  cd mysql_base/
+   84  ls
+   85  vi s1.cnf 
+   86  less s1.cnf 
+   87  c
+   88  cd ..
+   89  cd mariadata/data1/
+   90  ls
+   91  ../../mariadb/bin/mysqlbinlog sara-bin2-log2.000002
+   92  vi sara-bin2-log2.000002
+   93  mysql -h bjbtjxbq5xlby5mnxqo4-mysql.services.clever-cloud.com -P 3306 -u ucxremj4gymdbuhf -p bjbtjxbq5xlby5mnxqo4
+   94  cd saravanan/mysql/mysql_base/
+   95  mysql -h bjbtjxbq5xlby5mnxqo4-mysql.services.clever-cloud.com -P 3306 -u ucxremj4gymdbuhf -p bjbtjxbq5xlby5mnxqo4
+   96  ./bin/mysql -h bjbtjxbq5xlby5mnxqo4-mysql.services.clever-cloud.com -P 3306 -u ucxremj4gymdbuhf -p bjbtjxbq5xlby5mnxqo4
+   97  ls
+   98  ls /etc/ |grep "yum" 
+   99  ls /etc/yum.repos.d
+  100  yum repolist
+  101  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample2.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata/data1 --user=saravanan &
+  102  ./bin/mysql -u saravanan -S /tmp/mysql61.sock
+  103  less /home/saravanan/saravanan/mysql/mariadata/data1/error.log
+  104  ps -ef |grep "mysql"
+  105  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample2.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata/data1 --user=saravanan &
+  106  ./bin/mysql -u saravanan -S /tmp/mysql61.sock
+  107  ls /tmp
+  108  ls
+  109  less sample2.cnf 
+  110  ps -ef |grep "mysql"
+  111  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample2.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata/data1 --user=saravanan &
+  112  ./bin/mysql -u saravanan -S /tmp/mysql61.sock
+  113  ls /tmp
+  114  less /home/saravanan/saravanan/mysql/mariadata/data1/error.log
+  115  ./bin/mysql -u saravanan -S /tmp/mysql61.sock -e "stop slave"
+  116  rm -rf /tmp/mysql61.sock 
+  117  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample2.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata/data1 --user=saravanan &
+  118  ps -ef |grep "mysql"
+  119  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample2.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata/data1 --user=saravanan &
+  120  ./bin/mysql -u saravanan -S /tmp/mysql61.sock -e "stop slave"
+  121  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample2.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata/data1 --user=saravanan &
+  122  ./bin/mysql -u saravanan -S /tmp/mysql61.sock -e "stop slave"
+  123  ls -lahtr
+  124  less /home/saravanan/saravanan/mysql/mariadata/data1/error.log
+  125  rm -rf /home/saravanan/saravanan/mysql/mariadata/data1/*
+  126  ./scripts/mysql_install_db --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample2.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata/data1 --user=saravanan
+  127  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample2.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata/data1 --user=saravanan &
+  128  ./bin/mysql -u saravanan -S /tmp/mysql61.sock
+  129  ps -ef |grep "mysql"
+  130  echo ./scripts/mysql_install_db --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample2.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata/data1 --user=saravanan
+  131  a =./scripts/mysql_install_db --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample2.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata/data1 --user=saravanan
+  132  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata --user=saravanan &
+  133  ./bin/mysql -u saravanan -S /tmp/mysql33.sock
+  134  ls /tmp/
+  135  ./bin/mysql -u saravanan -S /tmp/mysql60.sock
+  136  ./bin/mysql -u root -S /tmp/mysql60.sock
+  137  sudo ./bin/mysql -u root -S /tmp/mysql60.sock
+  138  ./bin/mysql -u saravanan -S /tmp/mysql60.sock
+  139  ls
+  140  ps -ef |grep "proxysql"
+  141  cd saravanan/mysql/mariad
+  142  cd saravanan/mysql/mariadb
+  143  l,s
+  144  l
+  145  ls
+  146  l
+  147  ls
+  148  history|grep "maria"
+  149  ls
+  150  cd ~
+  151  ls
+  152  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample2.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata/data1 --user=saravanan &
+  153  r
+  154  free -h
+  155  sudo su
+  156  ls
+  157  sudo service proxysql status;
+  158  sudo service proxysql status
+  159  ./bin/mysql -u admin -P 6032 
+  160  ./bin/mysql -u admin -P 6032 -S /tmp/proxysql_admin.sock
+  161  sudo ./bin/mysql -u admin -P 6032 -S /tmp/proxysql_admin.sock
+  162  sudo ./bin/mysql -u admin -h saravanan-linux -P 6032 -S /tmp/proxysql_admin.sock
+  163  sudo ./bin/mysql -u admin -padmin -h saravanan-linux -P 6032 -S /tmp/proxysql_admin.sock
+  164  sudo ./bin/mysql -uadmin -padmin -h saravanan-linux -P 6032 -S /tmp/proxysql_admin.sock
+  165  ./bin/mysql -uadmin -P 6032 -h 127.0.0.1 -S /tmp/proxysql_admin.sock
+  166  cd ..
+  167  cd mysql_base/
+  168  ./bin/mysql -uadmin -P 6032 -h 127.0.0.1 -S /tmp/proxysql_admin.sock
+  169  sudo ./bin/mysql -u admin -h saravanan-linux -P 6032 -S /tmp/proxysql_admin.sock
+  170  sudo ./bin/mysql -u admin -h saravanan-linux -p -P 6032 -S /tmp/proxysql_admin.sock
+  171  sudo ./bin/mysql -u admin -h localhost -p -P 6032 -S /tmp/proxysql_admin.sock
+  172  ./bin/mysql -u admin -h localhost -p -P 6032 -S /tmp/proxysql_admin.sock
+  173  sudo ./bin/mysql -u admin -h localhost -p -P 6032 -S /tmp/proxysql_admin.sock
+  174  ls
+  175  sudo ./bin/mysql -u admin -h localhost -p -P 6032 -S /tmp/proxysql_admin.sock
+  176  sudo ./bin/mysql -u admin -h 127.0.0.1 -p -P 6032 -S /tmp/proxysql_admin.sock
+  177  ./bin/mysql -u admin -h 127.0.0.1 -p -P 6032 -S /tmp/proxysql_admin.sock
+  178  ls
+  179  netstat -tln 
+  180  sudo yum install httpd
+  181  ps -ef |grep "httpd"
+  182  ps -ef |grep "http"
+  183  top
+  184  systemctl
+  185  sudo systemctl enable httpd
+  186  sudo systemctl start httpd
+  187  ps -ef |grep "http"
+  188  sudo firewall-cmd --permanent --zone=public --add-service=http
+  189  sudo firewall-cmd --permanent --zone=public --add-service=https
+  190  sudo firewall-cmd --reload
+  191  sudo systemctl status httpd
+  192  sudo httpd -v
+  193  sudo systemctl stop httpd
+  194  sudo systemctl start httpd
+  195  sudo systemctl restart httpd
+  196  sudo systemctl reload httpd
+  197  php
+  198  sudo systemctl reload httpd
+  199  ifconfig
+  200  netstat -tln 
+  201  sudo systemctl enable httpd.service
+  202  ip addr show eth0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
+  203  ip addr show virbr0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
+  204  ip addr show wlp2s0 | grep inet | awk '{ print $2; }' | sed 's/\/.*$//'
+  205  curl http://sara-fam.com
+  206  curl http://icanhazip.com
+  207  sudo yum install php php-mysql
+  208  sudo systemctl restart httpd.service
+  209  php -v
+  210  sudo yum install php-fpm -y
+  211  sudo yum search php-
+  212  sudo vi /var/www/html/info.php
+  213  sudo firewall-cmd --permanent --zone=public --add-service=http 
+  214  sudo firewall-cmd --permanent --zone=public --add-service=https
+  215  sudo firewall-cmd --reload
+  216  ls
+  217  sudo firewall-cmd --reload
+  218  sudo systemctl reload httpd.service
+  219  sudo systemctl stop httpd.service
+  220  sudo systemctl stop 
+  221  free -h
+  222  sudo su
+  223  killall -KILL mysqld_safe mysqld mysql
+  224  ls
+  225  sudo firewall-cmd --permanent --zone=public --add-service=https
+  226  ps -ef |grep "httpd"
+  227  ps -ef |grep "myslq"
+  228  ps -ef |grep "mysql"
+  229  kill 16697 16705
+  230  sudo kill 16697 16705
+  231  sudo service proxysql stop
+  232  ps -ef |grep "proxysql"
+  233  ps -ef |grep "mysql"
+  234  free -h
+  235  less /etc/proxysql.cnf
+  236  sudo less /etc/proxysql.cnf
+  237  LS
+  238  ./bin/mysql -u sarav -p -h  -P6033
+  239  ./bin/mysql -u sarav -p -h 127.0.0.1 -P6033
+  240  ls /tmp/
+  241  ls -ltrh/tmp/
+  242  ls -ltrh /tmp/
+  243  less /var/lib/proxysql/proxysql.log
+  244  sudo less /var/lib/proxysql/proxysql.log
+  245  sudo ./bin/mysql -u admin -h 127.0.0.1 -p -P 6032 -S /tmp/proxysql_admin.sock
+  246  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata --user=saravanan &
+  247  ./bin/mysql -u sarvanan -S /tmp/mysql60.sock
+  248  sudo ./bin/mysql -u root -S /tmp/mysql60.sock
+  249  ./bin/mysql -u sarvanan -S /tmp/mysql60.sock
+  250  sudo ./bin/mysql -u root -S /tmp/mysql60.sock
+  251  ./bin/mysql -u sarv -S /tmp/mysql60.sock
+  252  ./bin/mysql -u sarav -S /tmp/mysql60.sock
+  253  ./bin/mysql -u sarav -p -S /tmp/mysql60.sock
+  254  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample2.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata/data1 --user=saravanan &
+  255  ./bin/mysql -u saravanan -S /tmp/mysql61.sock
+  256  cd saravanan/mysql/mariadb/
+  257  ls
+  258  history|grep "maria"
+  259  ./bin/mysql -u saravanan -S /tmp/mysql60.sock
+  260  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample2.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata/data1 --socket=/var/lib/mysql/mysql60.sock --user=saravanan &
+  261  ./bin/mysqladmin -u saravanan -S /tmp/mysql60.sock shutdown
+  262  fg
+  263  bg
+  264  ./bin/mysqladmin -u saravanan -S /tmp/mysql60.sock shutdown
+  265  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample2.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata/data1 --socket=/var/lib/mysql/mysql60.sock --user=saravanan &
+  266  ps -ef |grep "mysql"
+  267  killall -KILL mysqld_safe mysqld mysql
+  268  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample2.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata/data1 --socket=/var/lib/mysql/mysql60.sock --user=saravanan &
+  269  ./bin/mysql -u saravanan -S /var/lib/mysql/mysql60.sock
+  270  ./bin/mysqladmin -u saravanan -S /tmp/mysql60.sock shutdown
+  271  ./bin/mysqladmin -u saravanan -S /var/lib/mysql/mysql60.sock shutdown
+  272  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mariadb/sample2.cnf --datadir=/home/saravanan/saravanan/mysql/mariadata/data1 --socket=/var/lib/mysql/mysql.sock --user=saravanan &
+  273  ./bin/mysql -u saravanan -S /var/lib/mysql/mysql.sock
+  274  ls /var/www/
+  275  cd /var/www/html/
+  276  ls
+  277  cd ..
+  278  code ./
+  279  sudo mkdir webpage
+  280  cd webpage/
+  281  ls
+  282  sudo touch index.html
+  283  ls
+  284  ll
+  285  chown saravanan:saravanan ./*
+  286  sudo chown saravanan:saravanan ./*
+  287  ll
+  288  sudo chmod 750 ./*
+  289  ll
+  290  ls /var/www/html/info.php
+  291  cd /var/www/
+  292  ll
+  293  sudo chown saravanan:saravanan ./html
+  294  ll
+  295  cd html/
+  296  code ./
+  297  less connection_trace.txt 
+  298  netstat -tln 
+  299  code ./budget_app/
+  300  ps -ef |grep "proxysql"
+  301  ps -ef |grep "mysql"
+  302  ls /var/lib/mysql/mysql.sock
+  303  cd /var/lib/mysql
+  304  cd /var/lib/
+  305  l
+  306  sls
+  307  ls
+  308  mkdir mysql
+  309  sudo mkdir mysql
+  310  chown saravanan:saravanan ./mysql
+  311  sudo chown saravanan:saravanan ./mysql
+  312  ll
+  313  ls
+  314  cd mysql/
+  315  ls
+  316  ll
+  317  touch mysq60.sock
+  318  ls
+  319  ll
+  320  rm ./
+  321  rm ./*
+  322  ls
+  323  cd ..
+  324  ls
+  325  cd php/
+  326  ls
+  327  cd ..
+  328  ls
+  329  top
+  330  free -h
+  331  ls
+  332  cd saravanan/mysql/mysql_base/q
+  333  cd saravanan/mysql/mysql_base/
+  334  ;s
+  335  ls
+  336  cd grp_replication/
+  337  ld
+  338  s
+  339  ls
+  340  history|grep "mysql"
+  341  history|grep "grp_replication"
+  342  ../bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mysql_base/grp_replication/s1.cnf  --user=saravanan &
+  343  ../bin/mysql -u root -S /tmp/mysql41.sock
+  344  killall -KILL mysqld_safe mysqld mysql
+  345  less s1.cnf 
+  346  less /home/saravanan/saravanan/mysql/mysql_base/grp_replication/data1/saravanan-linux.err
+  347  echo ../bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mysql_base/grp_replication/s1.cnf  --user=saravanan &
+  348  ../bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mysql_base/grp_replication/s2.cnf --user=saravanan & 
+  349  ../bin/mysql -u root -S /tmp/mysql42.sock
+  350  ../bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mysql_base/grp_replication/s3.cnf --user=saravanan & 
+  351  ../bin/mysql -u root -S /tmp/mysql43.sock
+  352  top
+  353  free -h
+  354  sudo su 
+  355  exit
+  356  ls -ltrh ./Pictures/
+  357  ls -ltrh ./Pictures/
+  358  rm -rf Screenshot from 2020-05-08 20-40-18.png
+  359  ls -ltrh ./Pictures/
+  360  ls
+  361  ps -ef |grep "mysql"
+  362  ps -ef |grep "proxysql"
+  363  killall -KILL mysqld_safe mysqld mysql
+  364  kill -9 1833 1834
+  365  sudo kill -9 1833 1834
+  366  sudo su
+  367  ls
+  368  cd saravanan/mysql/mysql_base/bin/
+  369  ls
+  370  pwd
+  371  cd ..
+  372  ;s
+  373  l
+  374  s
+  375  ls
+  376  mkdir data
+  377  ls
+  378  ./bin/mysql_install_db --no-defaults --datadir=/home/saravanan/saravanan/mysql/mysql_base/data --user=saravanan
+  379  ls data/
+  380  rm -rf data/*
+  381  ./bin/mysql_install_db --no-defaults --datadir=/home/saravanan/saravanan/mysql/mysql_base/data --initialize --user=saravanan
+  382  ./bin/mysql_install_db --no-defaults --basedir=/home/saravanan/saravanan/mysql/mysql_base --datadir=/home/saravanan/saravanan/mysql/mysql_base/data -user=saravanan
+  383  ls data/
+  384  rm -rf ./data/
+  385  l.s
+  386  ls
+  387  cd .
+  388  cd ..
+  389  ls support-files/
+  390  ls
+  391  ls support-files/
+  392  cd support-files/
+  393  ls
+  394  less mysql.server 
+  395  ll
+  396  ls magic 
+  397  less magic 
+  398  ps -ef |grep "mysql"
+  399  sudo su
+  400  docker
+  401  docker --version
+  402  ls
+  403  mkdir Docker
+  404  cd Docker/
+  405  ls
+  406  docker pull centos
+  407  sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/docker-ce.repo
+  408  sudo yum install -y yum-utils device-mapper-persistent-data lvm2
+  409  sudo yum install docker
+  410  sudo systemctl start docker
+  411  docker pull centos
+  412  sudo systemctl enable docker
+  413  sudo systemctl status docker 0
+  414  ps -ef |grep "docker"
+  415  docker pull centos
+  416  sudo docker pull centos
+  417  docker images
+  418  sudo docker images
+  419  sudo docker run -it docker.io/centos /bin/bash
+  420  sudo usermod -aG docker $(whoami)
+  421  sudo usermod -aG saravanan $(whoami)
+  422  ll
+  423  free -h
+  424  sudo su
+  425  sudo systemctl status docker 0
+  426  sudo systemctl stop docker
+  427  ps -ef |grep "docker"
+  428  cd ~
+  429  cd saravanan/
+  430  ls
+  431  mkdir python
+  432  cd python/
+  433  ls
+  434  ls /usr/bin/
+  435  ls /usr/bin/ |grep "python"
+  436  vi mysql.py
+  437  python3 mysql.py 
+  438  python mysql.py 
+  439  sudo yum search python
+  440  sudo yum search python-mysql
+  441  sudo yum install MySQL-python
+  442  python mysql.py 
+  443  vi mysql.py 
+  444  python mysql.py 
+  445  vi mysql.py 
+  446  python mysql.py 
+  447  vi mysql.py 
+  448  python mysql.py 
+  449  cd ..
+  450  cd mysql/mysql_base/
+  451  ls
+  452  ./bin/mysql -h bjbtjxbq5xlby5mnxqo4-mysql.services.clever-cloud.com -P 3306 -u ucxremj4gymdbuhf -p bjbtjxbq5xlby5mnxqo4
+  453  history|grep "mysqld_safe"
+  454  history|grep -e "mysqld_safe" -e "s1.cnf"
+  455  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mysql_base/s2.cnf --user=saravanan &
+  456  ./bin/mysql -u root -S /tmp/mysql37.sock
+  457  sudo search python3
+  458  sudo yum search python3
+  459  kill -9 3673
+  460  kill -9 3672
+  461  sudo kill -9 3672
+  462  sudo yum search python3
+  463  sudo yum install python3
+  464  python
+  465  python3
+  466  ls
+  467  ps -ef |grep "docker"
+  468  sudo systemctl stop docker
+  469  ps -ef |grep "docker"
+  470  sudo systemctl start docker
+  471  ps -ef |grep "docker"
+  472  sudo systemctl stop docker
+  473  free -h
+  474  sudo su
+  475  ps -ef |grep "nginx"
+  476  ps -ef |grep "apache"
+  477  sudo systemctl stop apache
+  478  free -h
+  479  cd saravanan/mysql/mysql_base/
+  480  ls
+  481  less s1.cnf 
+  482  cat s1.cnf 
+  483  pwd
+  484  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mysql_base/s1.cnf --user=saravanan &
+  485  ./bin/mysql -u root -S /tmp/mysql36.sock
+  486  select user,host from mysql.user;
+  487  ./bin/mysql -u root -S /tmp/mysql36.sock
+  488  ./bin/mysql -u saravanan -p -h localhost -S /tmp/mysql36.sock
+  489  ./bin/mysql -u root -S /tmp/mysql36.sock
+  490  ./bin/mysql -u saravanan -p -h localhost -S /tmp/mysql36.sock
+  491  sudo kill -9 3672
+  492  killall -KILL mysqld_safe mysqld mysql
+  493  ps -ef |grep "apache"
+  494  free -h
+  495  sudo su 
+  496  history
+  497  history |grep "apache"
+  498  sudo su
+  499  cd saravanan/mysql/mysql_base/
+  500  l
+  501  ls
+  502  pwd
+  503  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mysql_base/s1.cnf --user=saravanan &
+  504  ./bin/mysql -u saravanan -p -S /tmp/mysql36.sock
+  505  ./bin/mysqladmin -u saravanan -p -S /tmp/mysql36.sock shutdown
+  506  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mysql_base/s1.cnf --user=saravanan &
+  507  ./bin/mysql -u saravanan -p -S /tmp/mysql36.sock
+  508  ./bin/mysql -u saravanan -p -h localhost -S /tmp/mysql36.sock
+  509  ./bin/mysqladmin -u saravanan -p -S /tmp/mysql36.sock shutdown
+  510  ps -ef |grep "mysql"
+  511  ps -ef |grep "docker"
+  512  sudo systemctl stop docker
+  513  cd ~/Docker/
+  514  ls
+  515  docker imgaes
+  516  docker images
+  517  sudo docker images
+  518  sudo docker run -it 470671670cac /bin/bash
+  519  free -h
+  520  top
+  521  free -h
+  522  du 
+  523  du -sh *
+  524  du -sh ./.cache
+  525  sudo du -sh ./.cache/*
+  526  ls
+  527  df
+  528  df ./Android
+  529  df -h ./Android
+  530  cd /
+  531  cd /home
+  532  ls
+  533  cd mysql/
+  534  ls
+  535  sudo cd mysql
+  536  ls
+  537  cd ls mysql
+  538  ls mysql/
+  539  sudo ls mysql/
+  540  sudo su
+  541  cd saravanan/
+  542  ls
+  543  free -h
+  544  sudo su
+  545  sudo systemctl start apache
+  546  sudo systemctl enable apache
+  547  sudo systemctl status apache
+  548  cd /var/www/html/
+  549  ls
+  550  cd budget_app/
+  551  code ./
+  552  ssh root@172.17.0.2
+  553  ssh root@382e344873e3
+  554  ssh -i root@382e344873e3
+  555  ifconfig
+  556  top
+  557  cd Dockert
+  558  cd Docker
+  559  ls
+  560  ps -ef |grep "docker"
+  561  sudo su
+  562  docker run -it centos /bin/bash
+  563  docker images
+  564  sudo su
+  565  sudo systemctl stop docekr
+  566  sudo systemctl stop docker
+  567  ps -ef |grep "docker"
+  568  sudo yum update
+  569  sudo su
+  570  ping 192.168.1.103
+  571  telnet
+  572  telnet 192.168.1.103
+  573  telnet 192.168.1.101
+  574  ssh root@192.168.1.101
+  575  telnet 25.29.231.68
+  576  telnet 25.29.231.69
+  577  ssh root@25.29.231.69
+  578  ssh root@49.45.0.1
+  579  ifconfig
+  580  ssh root@192.168.1.102
+  581  sudo su
+  582  ls
+  583  cd scripts/
+  584  ls
+  585  cd practice/
+  586  ls
+  587  ll
+  588  du -sh *
+  589  cd mysql_script_pracs/
+  590  ;s
+  591  ls
+  592  cd ,,
+  593  cd ..
+  594  ls
+  595  mkdir sample
+  596  mv *.sh ./sample/
+  597  ls
+  598  mkdir lesson
+  599  cd lesson/
+  600  s
+  601  ls
+  602  w
+  603  sudo su
+  604  l;s
+  605  ;s
+  606  ls
+  607  w
+  608  free -h
+  609  sudo su
+  610  ls
+  611  sudo su
+  612  $LOGNAMR
+  613  $LOGNAMe
+  614  $LOGNAME
+  615  date
+  616  at
+  617  date
+  618  ls
+  619  at 10:37:10 
+  620  at 10:37
+  621  at 10:38
+  622  jobs
+  623  at 10:41
+  624  jobs
+  625  ls
+  626  at 10:44
+  627  at 10:45
+  628  atq
+  629  man crontab
+  630  ls
+  631  crontab -e
+  632  date
+  633  ls
+  634  l
+  635  ls
+  636  crontab -l
+  637  ls
+  638  which crontab
+  639  ls /usr/bin/crontab
+  640  cd ~
+  641  ls
+  642  rm -rf third.sh third21.sh 
+  643  cd -
+  644  ;s
+  645  ls
+  646  crontab -e
+  647  ld
+  648  ls
+  649  a=90
+  650  echo $a
+  651  ls
+  652   mail
+  653  which google-chrome
+  654  cd /usr/bin/google-chrome
+  655  cd /usr/bin/
+  656  ls
+  657  ls |grep "google"
+  658  google-chrome-stable
+  659  cd -
+  660  ;s
+  661  ls ~/Downloads/
+  662  ls ~/Documents/
+  663  ls
+  664  vi first.sh
+  665  vi second.sh 
+  666  sh second.sh 
+  667  sh first.sh 
+  668  sh second.sh 
+  669  vi second.sh 
+  670  sh first.sh 
+  671  vi second.sh 
+  672  sh first.sh 
+  673  sh second.sh 
+  674  sh first.sh 
+  675  vi first.sh 
+  676  sh first.sh 
+  677  vi second.sh 
+  678  sh second.sh 
+  679  vi second.sh 
+  680  sh second.sh 
+  681  vi first.sh 
+  682  vi second.sh 
+  683  sh second.sh 
+  684  vi second.sh 
+  685  sh second.sh 
+  686  pwd
+  687  w
+  688  ps -aux |grep "mysql"
+  689  ps -aux |grep "sara"
+  690  LOGNAME
+  691  logname
+  692  $LOGNAME
+  693  ls
+  694  ;
+  695  s
+  696  ls
+  697  ld
+  698  ls
+  699  jobs
+  700  ls
+  701  atq
+  702  ls
+  703  date
+  704  ls
+  705  cd WhatsApp/
+  706  ls
+  707  ls -a
+  708  cd Media/
+  709  ls
+  710  ls -a
+  711  ls
+  712  ls -a
+  713  cd .
+  714  ;s
+  715  ls
+  716  ls
+  717  sudo systemctl docker stop
+  718  ps -aux |grep "sara"
+  719  ps -aux |grep "docker"
+  720  ps -ef 
+  721  ps -ef |grep "docker"
+  722  sudo systemctl docker stop
+  723  sudo su
+  724  ls
+  725  cd scripts/
+  726  ls
+  727  cd practice/
+  728  ls'
+  729  \c
+  730  cd practice
+  731  ls
+  732  cd sample/
+  733  ls
+  734  cd ..
+  735  cd lesson/
+  736  ls
+  737  date 
+  738  at 09:11
+  739  at 09:12
+  740  w >>file1.txt
+  741  less file1.txt 
+  742  w >>file1.txt
+  743  less file1.txt 
+  744  w > file1.txt
+  745  less file1.txt 
+  746  at 09:14
+  747  less file1.txt 
+  748  crontab -l
+  749  crontab -e
+  750  ls
+  751  sudo su
+  752  ls
+  753  cd scripts/
+  754  s
+  755  sls
+  756  ls
+  757  cd practice/
+  758  ;d
+  759  ls
+  760  cd lesson/
+  761  ;s
+  762  ls
+  763  pwd
+  764  ls
+  765  sh third.sh 
+  766  ps -ef |grep "apache"
+  767  sudo su
+  768  man at
+  769  cd ~
+  770  ls
+  771  ls -ltrh ./Pictures/
+  772  ls
+  773  ps -ef |grep "apache"
+  774  ps -ef |grep "mysql"
+  775  kill 4639 4845
+  776  pwd
+  777  exit
+  778  ls
+  779  ls -a
+  780  ls -l
+  781  ifconfig
+  782  whoami
+  783  q
+  784  top
+  785  free -h
+  786  sudo su
+  787  cd saravanan/mysql/mysql_base/
+  788  ls
+  789  less s1.cnf 
+  790  cat s1.cnf 
+  791  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mysql_base/s1.cnf --user=saravanan &
+  792  ./bin/mysql -u root -S /tmp/mysql36.sock
+  793  ps -ef |grep "pts"
+  794  kill 3853
+  795  top
+  796  free -h
+  797   
+  798  ls
+  799  ps -ef |grep "mysql"
+  800  killall -KILL mysqld_safe mysqld mysql
+  801  shutdown now
+  802  ls
+  803  ls -R |grep "mp3"
+  804  cd Music/
+  805  ls
+  806  cd Songs/
+  807  ;s
+  808  ls
+  809  rm -rf Yella Oorum - Tamildownloads.Net.mp3
+  810  ls Yella
+  811  cd ~
+  812  cd saravanan/
+  813  ls
+  814  google-chrome github.com
+  815  anydesk
+  816  sudo yum install anydesk
+  817  sudo yum install any-desk
+  818  ls -R |grep anydesk
+  819  cd Downloads/
+  820  ls
+  821  sudo yum install anydesk-5.5.6-1.el7.x86_64.rpm
+  822  anydesk
+  823  sudo yum search codeignitor
+  824  sudo yum search codeignitor
+  825  php
+  826  php --version
+  827  sudo su
+  828  kill 3796
+  829  sudo kill 3796
+  830  ls Downloads/
+  831  cp Downloads/bcit-ci-CodeIgniter-3.1.11-0-gb73eb19.zip ./development/
+  832  cd development/
+  833  ls
+  834  unzip bcit-ci-CodeIgniter-3.1.11-0-gb73eb19.zip 
+  835  ls
+  836  mv bcit-ci-CodeIgniter-b73eb19 codeignitor
+  837  ls
+  838  cd codeignitor/
+  839  ls
+  840  cd ..
+  841  ls
+  842  ls /var/www/html/
+  843  l
+  844  s
+  845  mv ./development/codeignitor /var/www/html/
+  846  cd /var/www/html/
+  847  ls
+  848  cd codeignitor/
+  849  ls
+  850  php --version
+  851  sl
+  852  ls
+  853  cd saravanan/mysql/mysql_base/
+  854  ;
+  855  ls
+  856  ./bin/mysql -u admin -P 6032 
+  857  history |grep "./bin/mysqld_safe"
+  858  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mysql_base/s1.cnf --user=saravanan &
+  859  ./bin/mysql -u root -S /tmp/mysql36.sock
+  860  ./bin/mysqladmin -u root -S /tmp/mysql36.sock shutdown
+  861  ps -ef |grep "mysql"
+  862  exit
+  863  ./bin/mysqld_safe --defaults-file=/home/saravanan/saravanan/mysql/mysql_base/s2.cnf --user=saravanan &
+  864  ./bin/mysql -u root -S /tmp/mysql37.sock
+  865  ./bin/mysqladmin -u root -S /tmp/mysql37.sock shutdown
+  866  top
+  867  kill 4885 \
+  868  ps -ef |grep "chrome"
+  869  kill 4872
+  870  kill 4872 4934 4953 4589 
+  871  ls
+  872  cd /var/www/html/
+  873  ls
+  874  cd budget_app/
+  875  cd ..
+  876  cd ~
+  877  sudo su
+  878  yum install mariadb-server mariadb
+  879  sudo yum install mariadb-server mariadb
+  880  sudo su
+  881  exit
+  882  sudo yum install mysql-server
+  883  sudo yum install mariadb-server
+  884  ls
+  885  ls /var
+  886  cd /
+  887  ls 
+  888  cd bin 
+  889  ls
+  890  ls |grep "repo"
+  891  cd ~
+  892  ;s
+  893  ls
+  894  vi /etc/yum.repos.d/MariaDB.repo
+  895  cd ~\
+  896  cd ~
+  897  ls
+  898  sudo su 
+  899  sudo su
+  900  systemctl start mariadb
+  901  ps -ef |grep "chrome"
+  902  ps -ef |grep "mysql"
+  903  exit
+  904  ls /var/lib/mysql/
+  905  less /var/lib/mysql/saravanan-linux.pid 
+  906  sudo less /var/lib/mysql/saravanan-linux.pid 
+  907  ls /usr/
+  908  ls
+  909  cd /usr
+  910  ls
+  911  cd bin/
+  912  l
+  913  sls
+  914  ls
+  915  ls -ltrh |mysql
+  916  ls -ltrh |grep mysql
+  917  exit
+  918  sudo /etc/yum.repos.d/MariaDB.repo
+  919  ls /etc/yum.repos.d/
+  920  cd /etc/yum.repos.d/
+  921  ls
+  922  vi MariaDB.repo
+  923  less M
+  924  ls
+  925  ls -a
+  926  sudo vi mariadb
+  927  ls
+  928  rm mariadb 
+  929  sudo rm mariadb 
+  930  ls
+  931  sudo vi mariadb.repo
+  932  cd /var/www/html/budget_app/
+  933  ls
+  934  code ./
+  935  exit
+  936  ps -ef |grep "mysql"
+  937  kill 2041
+  938  \
+  939  ps -ef |grep "mysql"
+  940  google-chrome localhost/budget_app/index.php
+  941  cd /var/www/html/budget_app/
+  942  code ./
+  943  sudo su
+  944  cd saravanan/mysql/mysql_base/
+  945  ls
+  946  pwd
+  947  cd docker_Space/
+  948  pwd
+  949  ls
+  950  sudo ls
+  951  ls
+  952  cd docker_Space/
+  953  ls
+  954  cd cen
+  955  docker pull mcr.microsoft.com/windows/servercore
+  956  cd /
+  957  cd var/lib/docker/
+  958  ls
+  959  sudo ls
+  960  sudo su
+  961  mv Docker docker_Space
+  962  ls
+  963  ps -ef 
+  964  ps -ef |grep "docker"
+  965  sudo systemctl docker status
+  966  sudo systemctl status docker
+  967  docker
+  968  sudo systemctl status docker
+  969  sudo su
+  970  ps -ef |grep "docker"
+  971  sudo systemctl disable docker
+  972  ps -ef |grep "docker"
+  973  systemctl is-enabled docker
+  974  ps -ef |grep "docker"
+  975  sudo systemctl stop docker
+  976  ps -ef |grep "docker"
+  977  systemctl is-enabled docker
+  978  ps -ef |grep "docker"
+  979  sudo systemctl start docker
+  980  ps -ef |grep "docker"
+  981  ping https://honda2wheelersindia.com/
+  982  ping https://honda2wheelersindia.com
+  983  telnet https://honda2wheelersindia.com
+  984  ssh root@https://honda2wheelersindia.com/
+  985  ssh root@honda2wheelersindia.com
+  986  cd scripts/practice/
+  987  ls
+  988  cd lesson/
+  989  ls
+  990  ps -ef |grep "docker"
+  991  l
+  992  pwd ../
+  993  ls
+  994  history
+  995  sudo su
+  996  ifconfig
+  997  ifconfig | grep "wlp2s0" | awk '{print $NF}'
+  998  ifconfig | grep "inet" | awk '{print $NF}'
+  999  ifconfig | grep -o -E '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'grep -o -E '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'
+ 1000* ifconfig | grep -o -E '[0-9]{1,3}\.[0DD-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'
+ 1001  ifconfig | grep "wlp2s0" | grep -o -E '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'
+ 1002  ifconfig && grep "wlp2s0" | grep -o -E '[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}'
+ 1003  ip
+ 1004  ip addr
+ 1005  ip neighbour
+ 1006  ifconfig | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p'
+ 1007  ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'
+ 1008  ifconfig wlan0 | ...
+ 1009  ifconfig wlan0 | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'
+ 1010  ifconfig wlp2s0 | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0.1'
+ 1011  ifconfig wlp2s0 | sed -En 's/127.0.0.1//;s/.*inet (addr:)?(([0-9]*\.){3}[0-9]*).*/\2/p'
+ 1012  history 
+ 1013  q
+ 1014  history >> history2.txt
